@@ -6,7 +6,7 @@
       "settings": {
         "clients": [
           {
-            "id": "eebb34d9-c968-4876-b5f0-fd13e53a8965",
+            "id": "eebb34d9-c968-4876-b5f0-fd13e53a8964",
             "level": 0
           }
         ],
@@ -15,7 +15,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/RVIXnYk4"
+          "path": "/RVIXnYk5"
         }
       }
     }
