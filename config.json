@@ -6,16 +6,15 @@
       "settings": {
         "clients": [
           {
-            "id": "92bacc48-9092-4860-afce-53b8dfbd0bdf",
-            "level": 0
+            "id": "HYDRA-MX01-4860-afce-53b8dfbd0bdf",
+            "alterId": 0
           }
-        ],
-        "decryption": "none"
+        ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/TZz0BAOU"
+          "path": "/HYDRA_MX_ws"
         }
       }
     }
