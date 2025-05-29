@@ -1,10 +1,10 @@
-FROM teddysun/v2ray:latest
+# Construir la imagen
+gcloud builds submit --tag gcr.io/TU-PROYECTO/vmess-hydra
 
-# Expose the correct container port (8080)
-EXPOSE 8080
-
-# Copy the VLESS config into the container
-COPY config.json /etc/v2ray/config.json
-
-# Run V2Ray with the config file
-CMD ["v2ray", "run", "-config", "/etc/v2ray/config.json"]
+# Desplegar a Cloud Run
+gcloud run deploy vmessmx \
+  --image gcr.io/TU-PROYECTO/vmess-hydra \
+  --platform managed \
+  --region us-central1 \
+  --allow-unauthenticated \
+  --port 8080
