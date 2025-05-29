@@ -1,4 +1,7 @@
 {
+  "log": {
+    "loglevel": "warning"
+  },
   "inbounds": [
     {
       "port": 8080,
@@ -6,7 +9,7 @@
       "settings": {
         "clients": [
           {
-            "id": "HYDRA-MX01-4860-afce-53b8dfbd0bdf",
+            "id": "b7faHYDRA-MX00-41c1-bc30-abcdeffedcba",
             "alterId": 0
           }
         ]
@@ -14,7 +17,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/HYDRA_MX_ws"
+          "path": "/HYDRA_MX"
         }
       }
     }
